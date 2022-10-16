@@ -11,11 +11,21 @@ section{
     border: 1px grey;
     border-radius: 10px;
 
-    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
     max-width: 700px;
     margin: auto;
     height: 50vh;
     color: grey;
-    box-shadow: 5px 5px 5px ;
+    box-shadow: 5px 5px 5px ; 
+}
+
+.left{
+    background-color: aqua;
+    background-image: url("/product-preview-card-component-main/images/image-product-desktop.jpg");
+    background-size: cover;
+}
+.right{
     
 }
