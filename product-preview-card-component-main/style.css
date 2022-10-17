@@ -3,36 +3,120 @@ body{
     
 }
 section{
-    height: 90vh;
+    height: 100vh;
     display: flex;
+    border: 5px solid blue;
+
 }
 
 .container{
-    border: 1px grey;
-    border-radius: 10px;
-
     display: grid;
     grid-template-columns: 50% 50%;
-
-    max-width: 700px;
+    border: 5px solid green;
+    max-width: 900px;
     margin: auto;
-    height: 50vh;
+    height: 75vh;
     color: grey;
-    box-shadow: 5px 5px 5px ; 
+    box-shadow: 5px 5px 5px ;
+    border-radius: 10px;
 }
 
 .left{
-    background-color: aqua;
-    background-image: url("/product-preview-card-component-main/images/image-product-desktop.jpg");
+    background-image: url("./images/image-product-desktop.jpg");
     background-size: cover;
+   
 }
 
 .right{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
     background-color: white;
+
+    text-align: left;
+    border: 5px solid red;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: column;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
-    color:hsl(228, 12%, 48%)
+    color:hsl(228, 12%, 48%);
+    border: 5px solid red;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h2{
+    font-family: 'Fraunces', sans-serif;
+    border: 5px solid red;
+    font-size: 50px;
+    font-weight:900;
+    margin: 0;
+    color: hsl(212, 21%, 14%);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    border: 5px solid red;
+    font-size: 22px;
+    line-height: 2rem;
+    text-align: left;
+    color:hsl(228, 12%, 48%);
+
+
+}
+
+.price-row {
+    display: flex;
+    border: 5px solid red;
+
+}
+
+.price-01{
+    font-family: 'Fraunces', sans-serif;
+    font-size:50px;
+    color:hsl(158, 36%, 37%);
+    margin: 1px 10px;
+    border: 5px solid red;
+
+}
+
+.price-02{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration:line-through;
+    margin: 1px 10px;
+    border: 5px solid red;
+    padding-top: 13px;
+
+}
+
+button{
+    background-color:#18260F;
+    margin-top: 80px;
+    height: 85px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: 5px solid red;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+#btn-icon{
+    border: 5px solid red;
+    margin: 10px;
+
 }
